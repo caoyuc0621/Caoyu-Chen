@@ -1,0 +1,1 @@
+This folder contains references to canonical course templates.

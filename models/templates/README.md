@@ -1,0 +1,1 @@
+This folder contains blank model frameworks and templates.

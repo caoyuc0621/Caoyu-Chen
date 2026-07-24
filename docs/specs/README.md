@@ -1,0 +1,1 @@
+This folder contains technical specifications for project models.
