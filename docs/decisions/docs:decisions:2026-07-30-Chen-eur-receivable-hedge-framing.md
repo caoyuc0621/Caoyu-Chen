@@ -1,3 +1,10 @@
+---
+title: "EUR Receivable Hedge Framing"
+author: "Caoyu Chen"
+date: "2026-07-30"
+version: "1.0"
+---
+
 Executive Memo
 
 Chief Financial Officer
