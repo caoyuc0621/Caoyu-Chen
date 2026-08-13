@@ -8,8 +8,8 @@ Caoyu — you found the crossover. Section C states that the put overtakes the f
 | Hand verification | 25 / 25 |
 | Recommendation & executive voice | 25 / 25 |
 | Spec retrospective | 17 / 17 |
-| Repo polish | 4.8 / 8 |
-| **Total** | **97 / 100** |
+| Repo polish | 8 / 8 |
+| **Total** | **100 / 100** |
 
 **What you did well — and why it matters**
 
@@ -27,9 +27,11 @@ That $68,248 is the forward premium, and it exists precisely because `R_USD` (4.
 
 The correct comparison discounts the forward proceeds back to today, or grows the spot proceeds forward to settlement — never one of each. This matters on a real desk because "the forward pays more than spot" is the reasoning that leads someone to describe a forward premium as free money and size a position on it. Your recommendation does not depend on the $68,248 claim, so nothing else in the memo breaks; just cut it or reframe it as the interest differential it is.
 
-**Repo polish — 3.2 points, ten minutes of work**
+**Repo polish — closed out, full marks**
 
-The only mechanical points you lost: no `LICENSE` file and no repository description set on GitHub. Add a LICENSE (MIT is fine for coursework) and write a one-line description in your repo's About panel. Also finish the filing cleanup from the Stage 2 review — the four root-level prompt-log files, the `promt-log.md` typo, and the colon-mangled Stage 1 memo filename. Your analysis is at 100; the repo around it is what is costing you.
+You went and did it: `LICENSE` added, a repository description set, per-directory READMEs filled in, and the colon-mangled Stage 1 memo filename fixed — all on 2026-08-11/12. That closes the last 3.2 points and takes this stage to **100**. Worth saying plainly: the analysis was already there, and the only thing standing between it and a full score was housekeeping you turned around in a day. That is the correct response to a review, and it is exactly how the loop is supposed to work.
+
+One item from the Stage 2 review is still open and no longer costs you anything, so treat it as portfolio hygiene rather than grading: the prompt log is still scattered across five root-level files (`promt-log.md` with the typo, `prompt-log-stage2-addition.md`, and three `2026-08-08-Chen-stage{3,4,5}-prompt-log-addition.md`). The brief asks for one running `prompt-log.md` at the repo root. Concatenating them in stage order into a single correctly-spelled file is a five-minute job and makes the AI-collaboration trail readable as one narrative instead of five fragments.
 
 — Treasury
 
